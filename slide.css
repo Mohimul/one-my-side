@@ -1,0 +1,47 @@
+body{
+
+    margin: 0%;
+    padding: 0%;
+     background-color: #313131;
+    background-size: cover;
+}
+.slider{
+
+    width: 900px;
+    height: 500px;
+    background: url(pic2/e3.jpg);
+    animation: slide  20s infinite;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+@keyframes slide{
+
+    25%{
+
+        background: url(pic2/m4.jpg);
+        background-size: cover;
+    }
+    
+    40%{
+
+        background: url(pic2/m6.jpg );
+        background-size: cover;
+    }
+    
+    60%{
+
+        background: url(pic2/e3.jpg);
+        background-size: cover;
+    }
+    80%{
+
+        background: url(pic2/e2.jpg);
+        background-size: cover;
+    }
+     
+    
+     
+}
